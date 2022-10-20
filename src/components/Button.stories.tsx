@@ -8,6 +8,11 @@ export default{
         children: 'Create account',
     },
     argTypes: {
+        asChild:{
+            table:{
+                disable:true,
+            }
+        }
     }
 } as Meta<ButtonProps>
 
